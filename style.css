@@ -1,0 +1,97 @@
+.container{
+  /*width: 100%;*/
+  width: 950px;
+  margin: 0 auto;
+  padding: 0 44px;
+}
+
+.container h1 {
+  text-align: center;
+  font-family: 'Open Sans', arial;
+  color: #555;
+  font-size: 38px;
+  font-weight: 300;
+  margin-top: 27px;
+  margin-bottom: 50px;
+  line-height: 24px;
+}
+
+.container .content{
+  width: 100%;
+}
+
+.container .content .side-content{
+  width: 530px;
+  margin: 0 420px 0 0;
+  padding-top: 18px;
+  font-family: 'Open Sans', arial;
+}
+
+.container .content .side-content h2{
+  text-align: center;
+  font-family: 'Open Sans', arial;
+  color: #737373;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.container .content .form-box{
+  float: right;
+  width: 362px;
+  background: #f1f1f1;
+}
+
+.container .content .form-box #form{
+  padding: 25px;
+}
+
+.container .content .form-box #form .form-group{
+  margin: 0 0 1.5em;
+}
+
+
+.container .content .form-box #form .form-group label{
+  font-weight: bold;
+  margin-bottom: 6.5px;
+}
+
+.container .content .form-box #form .form-group input{
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    display: inline-block;
+    height: 29px;
+    margin: 0;
+    padding: 0 8px;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.container .content .form-box #form .form-button button{
+  float: right;
+  margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+  .container{
+    width: 100%;
+    padding: 0;
+  }
+
+  .container .content .side-content{
+    display: none;
+  }
+
+  .container .content .form-box{
+    width: 100%;
+  }
+
+}
